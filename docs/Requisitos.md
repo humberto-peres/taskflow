@@ -1,16 +1,26 @@
-# Requisitos
+# 📋 Requisitos do Sistema de Gerenciamento de Tarefas
 
-## Requisitos Funcionais
+## ✅ Requisitos Funcionais (RF)
 
-- **RF01** - O usuário deve poder criar uma conta com suas informações pessoais
-- **RF02** - O usuário deve poder realizar login
-- **RF03** - Criar, editar e excluir tarefas
-- **RF04** - Definir status customizáveis para cada tarefa
-- **RF05** - Atribuir responsáveis e prazos
-- **RF06** - Criar quadros de tarefas em estilo Kanban ou Scrum
+- **RF01** - O usuário deve poder criar uma conta com suas informações pessoais.
+- **RF02** - O usuário deve poder realizar login no sistema.
+- **RF03** - O usuário deve poder editar suas informações pessoais.
+- **RF04** - O usuário deve poder criar, editar e excluir tarefas.
+- **RF05** - O usuário deve poder personalizar os status das tarefas.
+- **RF06** - O usuário deve poder definir responsáveis e prazos para as tarefas.
+- **RF07** - O usuário deve poder criar quadros de tarefas nos formatos Kanban ou Scrum.
+- **RF08** - Caso o quadro seja Scrum, o usuário deve poder criar e gerenciar Sprints.
+- **RF09** - O usuário deve poder configurar propriedades iniciais do quadro, como Prioridade, Etapa, Equipe e Workspace.
+- **RF10** - O usuário deve poder acessar os workspaces em que esteja incluído como membro da equipe.
+- **RF11** - O sistema deve impedir a criação de workspaces com identificadores duplicados.
+- **RF12** - O sistema deve criar todas as novas tarefas na coluna inicial definida pelo usuário (por exemplo, "To Do").
+- **RF13** - O usuário deve poder aplicar filtros para buscar tarefas, quadros ou workspaces.
+- **RF14** - O sistema deve permitir a visualização detalhada de uma tarefa.
+  
+---
 
-## Requisitos Não-Funcionais
+## ⚙️ Requisitos Não-Funcionais (RNF)
 
-- **RNF01** - O sistema deve ser responsivo
-- **RNF02** - O sistema não deve permitir registar dois usuários com o mesmo username
-- **RNF03** - Implementar autenticação segura para que os dados do usuário sejam armazenados de forma segura
+- **RNF01** - O sistema deve ser responsivo.
+- **RNF02** - O sistema não deve permitir o registro de dois usuários com o mesmo nome de usuário (username).
+- **RNF03** - O sistema deve implementar autenticação segura, garantindo o armazenamento seguro dos dados dos usuários.
