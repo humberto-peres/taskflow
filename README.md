@@ -55,9 +55,11 @@ Em ambientes empresariais cada vez mais dinâmicos, a organização e o monitora
 Acesse a documentação:
 
 - [Requisitos](./docs/Requisitos.md)
+- [Caso de Uso](./docs/use-case.md)
+- [Modelo C4](./docs/c4-diagram.md)
 
 ## Links Importantes
 
 - **Jira:** [Quadro de Tarefas](https://task-flow.atlassian.net/jira/software/projects/KAN/boards/1?atlOrigin=eyJpIjoiY2FkNzg4OGY2NDQ5NGNlNmI1YTZjODc0Njc1ZWExOGYiLCJwIjoiaiJ9)
 
-- **RFC:** [Documento RFC.pdf](https://github.com/user-attachments/files/19523780/Documento.RFC.pdf) ⚠️ Em desenvolvimento ⚠️
+- **RFC:** [Documento RFC.pdf](./docs/document_rfc.pdf) 🚧 Em desenvolvimento 🚧
