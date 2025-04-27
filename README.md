@@ -7,30 +7,26 @@ O TaskFlow é um Sistema de Gestão de Tarefas e Projetos que auxilia equipes e 
 Em ambientes empresariais cada vez mais dinâmicos, a organização e o monitoramento de atividades são essenciais para o sucesso dos projetos. O sistema proposto oferece uma solução intuitiva e colaborativa para equipes de desenvolvimento, gestão de projetos e operações, permitindo a atribuição, acompanhamento e conclusão de tarefas de forma integrada aos fluxos de trabalho modernos.
 
 ## Stack Tecnológica
+<p align="center"> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js"/> <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="JWT"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/> <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger"/> </p>
 
-### Backend 
+### Tecnologias Utilizadas
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+Backend:
+Node.js com Express, garantindo uma API robusta e escalável. A autenticação é feita via JWT, garantindo segurança no acesso às rotas.
 
-### Frontend
+Frontend:
+Aplicação desenvolvida em React, proporcionando uma interface moderna, interativa e responsiva para a melhor experiência do usuário.
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+Banco de Dados:
+Utilização do PostgreSQL como banco relacional principal, com suporte também ao MySQL, conforme necessidade de integração.
 
-### Banco de Dados
+Conteinerização:
+Docker para padronizar o ambiente de desenvolvimento e facilitar a implantação da aplicação.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+Documentação e Gerenciamento:
+Jira para o gerenciamento ágil das tarefas do projeto e Swagger para a documentação clara e interativa da API.
 
-### Conteinerização
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
-### Documentação
-
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 ## Objetivos do Projeto
 
