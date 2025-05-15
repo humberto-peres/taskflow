@@ -1,4 +1,4 @@
-# 📐 Modelo C4
+# Modelo C4
 
 ## 🧭 Contexto
 

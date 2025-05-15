@@ -1,4 +1,4 @@
-# 📋 Requisitos do Sistema de Gerenciamento de Tarefas
+# Requisitos do Sistema de Gerenciamento de Tarefas
 
 ## ✅ Requisitos Funcionais (RF)
 

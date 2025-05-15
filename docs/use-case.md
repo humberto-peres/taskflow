@@ -1,4 +1,4 @@
-# 📋 Casos de Uso
+# Casos de Uso
 
 ## 🎭 Atores
 
