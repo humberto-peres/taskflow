@@ -58,4 +58,4 @@ Acesse a documentação:
 
 - **Jira:** [Quadro de Tarefas](https://task-flow.atlassian.net/jira/software/projects/KAN/boards/1?atlOrigin=eyJpIjoiY2FkNzg4OGY2NDQ5NGNlNmI1YTZjODc0Njc1ZWExOGYiLCJwIjoiaiJ9)
 
-- **RFC:** [Documento RFC.pdf](https://github.com/user-attachments/files/19766769/Documento.RFC.pdf) 🚧 Em desenvolvimento 🚧 
+- **RFC:** [Documento.RFC.pdf](https://github.com/user-attachments/files/20235215/Documento.RFC.pdf) 🚧 Em desenvolvimento 🚧 
