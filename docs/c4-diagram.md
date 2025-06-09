@@ -21,6 +21,7 @@ A arquitetura do TaskFlow é composta por diversos contêineres, cada um com uma
 Este nível detalhará os principais módulos internos da aplicação, como: autenticação, gestão de tarefas, quadros e equipes.
 
 ![Diagrama de Componente](./assets/c4-diagrams/component-diagram.png)
+
 ---
 
 ## 🧑‍💻 Código

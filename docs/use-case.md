@@ -1,9 +1,9 @@
-# Casos de Uso
+# 📘 Casos de Uso
 
 ## 🎭 Atores
 
-1. **Usuário**: Pessoa logada no sistema.
-2. **Sistema**: Executa automaticamente validações de regras de negócio e dados.
+1. **Usuário**: Pessoa logada no sistema, responsável por interações diretas.
+2. **Sistema**: Executa automaticamente validações e regras de negócio (implícito nos casos estendidos).
 
 ---
 
@@ -11,58 +11,60 @@
 
 ### 1. Criar conta
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário crie uma conta no sistema.  
+- **Descrição**: Permite que o usuário registre uma nova conta no sistema.
 
 ---
 
 ### 2. Realizar login
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário acesse sua conta.  
-- **Inclui**: Validar dados (`Sistema`)
+- **Descrição**: Permite que o usuário acesse sua conta existente.
 
 ---
 
 ### 3. Editar informações pessoais
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite editar dados pessoais como nome, e-mail ou senha.  
-- **Inclui**: Validar dados (`Sistema`)
+- **Descrição**: Permite que o usuário atualize seus dados pessoais, como nome, e-mail e senha.
 
 ---
 
 ### 4. Criar, editar e excluir tarefas
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite o gerenciamento completo de tarefas.  
-- **Estende**: Definir responsáveis e prazos (`Sistema`)
+- **Descrição**: Permite o gerenciamento completo das tarefas.  
+- **Estende**: `Definir responsáveis e prazos`
 
 ---
 
-### 5. Criar quadros de tarefas
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite criar quadros no formato Kanban ou Scrum.  
-- **Inclui**: Configurar propriedades iniciais (`Sistema`)
+### 5. Definir responsáveis e prazos
+- **Ator Principal**: Sistema  
+- **Descrição**: Funcionalidade adicional ativada durante a criação ou edição de tarefas, permitindo definir responsáveis e prazos.
 
 ---
 
-### 6. Gerenciar sprints
+### 6. Criar quadros de tarefas
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite o gerenciamento de sprints quando o quadro for Scrum.  
-- **Inclui**: Validar se o quadro é Scrum (`Sistema`)
+- **Descrição**: Permite a criação de quadros de tarefas para organização visual (ex: Kanban ou Scrum).
 
 ---
 
-### 7. Acessar workspace
+### 7. Gerenciar sprints
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite acessar workspaces dos quais o usuário faz parte.  
-- **Inclui**: Validar se o usuário está incluído como membro da equipe (`Sistema`)
+- **Descrição**: Permite o gerenciamento de sprints vinculados aos quadros Scrum.
 
 ---
 
-### 8. Visualizar dados da atividade
+### 8. Acessar workspace
 - **Ator Principal**: Usuário  
-- **Descrição**: Permite visualizar informações detalhadas de uma tarefa ou atividade.
+- **Descrição**: Permite que o usuário acesse ambientes de trabalho (workspaces) dos quais faz parte.  
+- **Estende**: `Visualizar dados da atividade`
+
+---
+
+### 9. Visualizar dados da atividade
+- **Ator Principal**: Usuário  
+- **Descrição**: Permite a visualização de informações detalhadas das tarefas ou atividades em andamento.
 
 ---
 
 ## 📈 Diagrama UML
 
-![Diagrama UML](assets/use-case/uml.png)
+![Diagrama de Casos de Uso](assets/use-case/uml.png)
