@@ -1,67 +1,58 @@
-# 📘 Casos de Uso
+# Casos de Uso
 
 ## 🎭 Atores
 
-1. **Usuário**: Pessoa logada no sistema, responsável por interações diretas.
-2. **Sistema**: Executa automaticamente validações e regras de negócio (implícito nos casos estendidos).
+1. **Usuário**: Ator principal, realiza todas as interações.
 
 ---
 
 ## ✅ Casos de Uso
 
-### 1. Criar conta
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário registre uma nova conta no sistema.
+### 1. Criar Conta
+- **Ator**: Usuário
+- **Descrição**: Cadastro com nome, e-mail e senha.
 
----
+### 2. Realizar Login
+- **Ator**: Usuário
+- **Descrição**: Autenticação via e-mail e senha.
 
-### 2. Realizar login
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário acesse sua conta existente.
+### 3. Editar Informações Pessoais
+- **Ator**: Usuário
+- **Descrição**: Atualização de nome, e-mail ou senha.
 
----
+### 4. Criar, Editar e Excluir Tarefas
+- **Ator**: Usuário
+- **Descrição**: Gerenciar tarefas em workspaces.
+- **Estende**: `Definir responsáveis e prazos`, `Definir status da tarefa`
 
-### 3. Editar informações pessoais
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário atualize seus dados pessoais, como nome, e-mail e senha.
+### 5. Definir Responsáveis e Prazos
+- **Ator**: Usuário
+- **Descrição**: Definição de responsáveis e prazos ao criar/editar tarefas.
 
----
+### 6. Definir Status da Tarefa
+- **Ator**: Usuário
+- **Descrição**: Permite atualizar status das tarefas.
 
-### 4. Criar, editar e excluir tarefas
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite o gerenciamento completo das tarefas.  
-- **Estende**: `Definir responsáveis e prazos`
+### 7. Criar Quadros de Tarefas
+- **Ator**: Usuário
+- **Descrição**: Criação de quadros Kanban/Scrum.
 
----
+### 8. Gerenciar Sprints
+- **Ator**: Usuário
+- **Descrição**: Criar e gerenciar sprints vinculados a quadros Scrum.
 
-### 5. Definir responsáveis e prazos
-- **Ator Principal**: Sistema  
-- **Descrição**: Funcionalidade adicional ativada durante a criação ou edição de tarefas, permitindo definir responsáveis e prazos.
-
----
-
-### 6. Criar quadros de tarefas
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite a criação de quadros de tarefas para organização visual (ex: Kanban ou Scrum).
-
----
-
-### 7. Gerenciar sprints
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite o gerenciamento de sprints vinculados aos quadros Scrum.
-
----
-
-### 8. Acessar workspace
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite que o usuário acesse ambientes de trabalho (workspaces) dos quais faz parte.  
+### 9. Acessar Workspace
+- **Ator**: Usuário
+- **Descrição**: Acessar workspaces em que participa.
 - **Estende**: `Visualizar dados da atividade`
 
----
+### 10. Visualizar Dados da Atividade
+- **Ator**: Usuário
+- **Descrição**: Visualização detalhada de tarefas.
 
-### 9. Visualizar dados da atividade
-- **Ator Principal**: Usuário  
-- **Descrição**: Permite a visualização de informações detalhadas das tarefas ou atividades em andamento.
+### 11. Visualizar Dashboards
+- **Ator**: Usuário
+- **Descrição**: Acompanhar dashboards de progresso.
 
 ---
 
